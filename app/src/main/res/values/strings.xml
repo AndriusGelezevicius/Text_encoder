@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Text Encoder</string>
+    <string name="open"> Open Navigation Drawer</string>
+    <string name="close"> Cloe Navigation Drawer</string>
+</resources>

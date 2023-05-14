@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/purple_200">
+
+
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       >
+       <ImageView
+           android:id="@+id/image"
+           android:layout_width="210dp"
+           android:layout_height="200dp"
+           android:src="@drawable/encryption"
+           android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           />
+
+       <TextView
+           android:id="@+id/text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/image"
+           android:layout_marginTop="39dp"
+           android:text="Text encoder"
+           android:layout_centerHorizontal="true"
+           android:textStyle="italic"
+           android:fontFamily="sans-serif-black"
+           android:textSize="50dp" />
+
+           <Button
+               android:id="@+id/btnStart"
+               android:layout_width="150dp"
+               android:layout_height="60dp"
+               android:layout_below="@id/text"
+               android:layout_marginTop="50dp"
+               android:layout_centerHorizontal="true"
+               android:backgroundTint="#373131"
+               android:text="Start"
+               />
+
+
+   </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
